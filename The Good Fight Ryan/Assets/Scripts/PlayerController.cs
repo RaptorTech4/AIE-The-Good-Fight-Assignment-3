@@ -15,9 +15,23 @@ public class PlayerController : MonoBehaviour
 
     public float _Tilt;
 
+    public GameObject _BulletPrefab;
+    public Transform _BulletSpawn;
+    public float _FireRate;
+    private float _NextFire;
+
     void Start()
     {
         _RB = GetComponent<Rigidbody>();
+    }
+
+    private void Update()
+    {
+        if (Input.GetButton("Jump") && Time.time > _NextFire)
+        {
+            _NextFire = Time.time + _FireRate;
+            Instantiate(_BulletPrefab, _BulletSpawn.position, _BulletSpawn.rotation);
+        }
     }
 
     private void FixedUpdate()
