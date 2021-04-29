@@ -44,7 +44,7 @@ public class PlayerController : MonoBehaviour
         _RB.position = new Vector3
             (
                 Mathf.Clamp(_RB.position.x, _Boundary._XMin, _Boundary._XMax),
-                0.0f,
+                transform.position.y,
                 Mathf.Clamp(_RB.position.z, _Boundary._ZMin, _Boundary._ZMax)
             );
         _RB.rotation = Quaternion.Euler(0.0f, 0.0f, _RB.velocity.x * -_Tilt);
