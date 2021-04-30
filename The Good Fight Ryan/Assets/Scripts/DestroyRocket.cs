@@ -19,9 +19,13 @@ public class DestroyRocket : MonoBehaviour
 
         if(other.tag == "Player")
         {
-            Instantiate(_PlayerExposion, other.transform.position, other.transform.rotation);
+            return;
         }
-
+        if(other.tag == "Terrain")
+        {
+            Destroy(gameObject);
+            return;
+        }
         Destroy(other.gameObject);
         Destroy(gameObject);
     }

@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class DestroyByBoundry : MonoBehaviour
@@ -7,10 +5,13 @@ public class DestroyByBoundry : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        if(other.gameObject.tag == "Bullet")
+        if (other.gameObject.tag == "Bullet")
         {
-
-        Destroy(other.gameObject);
+            Destroy(other.gameObject);
+        }
+        if (other.gameObject.tag == "EnemyRocket")
+        {
+            Destroy(other.gameObject);
         }
     }
 

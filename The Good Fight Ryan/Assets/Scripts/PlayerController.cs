@@ -20,6 +20,8 @@ public class PlayerController : MonoBehaviour
     public float _FireRate;
     private float _NextFire;
 
+    public GameManager _GM;
+
     void Start()
     {
         _RB = GetComponent<Rigidbody>();
@@ -49,6 +51,14 @@ public class PlayerController : MonoBehaviour
             );
         _RB.rotation = Quaternion.Euler(0.0f, 0.0f, _RB.velocity.x * -_Tilt);
 
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.tag == "EnemyRocket")
+        {
+            _GM.DamageRecived(other.GetComponent<DamegeScript>()._DamigeValue);
+        }
     }
 
 }

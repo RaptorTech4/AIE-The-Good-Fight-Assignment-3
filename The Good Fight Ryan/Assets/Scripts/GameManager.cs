@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
@@ -10,6 +11,11 @@ public class GameManager : MonoBehaviour
     public float _RocketStart;
     public float _RocketSpawnDelay;
     public float _RocketWaveDelay;
+
+    public Image _HealthBar;
+    public float _PlayerHalf;
+    public GameObject _PlayerShip;
+    public GameObject _PlayerExplosion;
 
     void Start()
     {
@@ -39,4 +45,16 @@ public class GameManager : MonoBehaviour
         }
 
     }
+
+    public void DamageRecived(float damage)
+    {
+        _PlayerHalf = _PlayerHalf - damage;
+        _HealthBar.fillAmount = _PlayerHalf;
+        if(_PlayerHalf <= 0)
+        {
+            Instantiate(_PlayerExplosion,_PlayerShip.transform.position,_PlayerShip.transform.rotation);
+            Destroy(_PlayerShip);
+        }
+    }
+
 }

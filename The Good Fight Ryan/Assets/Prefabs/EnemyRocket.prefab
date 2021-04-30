@@ -14,9 +14,10 @@ GameObject:
   - component: {fileID: 6325584103032810188}
   - component: {fileID: 6325584103032810191}
   - component: {fileID: 6325584103032810190}
+  - component: {fileID: 6550805622118132395}
   m_Layer: 0
   m_Name: EnemyRocket
-  m_TagString: Bullet
+  m_TagString: EnemyRocket
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -107,6 +108,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _RB: {fileID: 0}
   _Speed: -10
+--- !u!114 &6550805622118132395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6325584103032810184}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ab4ee1fe6d3c29469a49fd42b40345c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _DamigeValue: 0.2
 --- !u!1001 &6325584103701180804
 PrefabInstance:
   m_ObjectHideFlags: 0
