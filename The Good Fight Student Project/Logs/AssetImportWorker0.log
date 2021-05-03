@@ -99,3 +99,28 @@ Received Import Request.
 Start importing Assets/Models/Shelves.fbx using Guid(f4035fd750ffdcb41bd99c4aa43c863d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd63ee81061b03239c5dff3f3e58867eb') in 0.127784 seconds
   Import took 0.131194 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 8059.657524 seconds.
+  path: Assets/Models/Shelves.fbx
+  artifactKey: Guid(f4035fd750ffdcb41bd99c4aa43c863d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shelves.fbx using Guid(f4035fd750ffdcb41bd99c4aa43c863d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '122be776bbc160e0c62608866adc6a27') in 0.154120 seconds
+  Import took 0.194240 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000983 seconds.
+  path: Assets/Models/Shelves.fbx
+  artifactKey: Guid(f4035fd750ffdcb41bd99c4aa43c863d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shelves.fbx using Guid(f4035fd750ffdcb41bd99c4aa43c863d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '122be776bbc160e0c62608866adc6a27') in 0.093519 seconds
+  Import took 0.096356 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.801384 seconds.
+  path: Assets/Models/Shelves.fbx
+  artifactKey: Guid(f4035fd750ffdcb41bd99c4aa43c863d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shelves.fbx using Guid(f4035fd750ffdcb41bd99c4aa43c863d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e2d66f92c91fcf2ba2807b402f2a401') in 0.154388 seconds
+  Import took 0.157988 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
