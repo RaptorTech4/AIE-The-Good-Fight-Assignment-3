@@ -91,3 +91,11 @@ Received Import Request.
 Start importing Assets/Models/Shelves.fbx using Guid(f4035fd750ffdcb41bd99c4aa43c863d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7829c0a8f683161eb83118199985c73d') in 0.289310 seconds
   Import took 0.292809 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 691.468161 seconds.
+  path: Assets/Models/New Lighting Settings.lighting
+  artifactKey: Guid(3b2ec34f91f23f04fb7d50965761cc35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/New Lighting Settings.lighting using Guid(3b2ec34f91f23f04fb7d50965761cc35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '802b6b36faf0dc3f966d2581b7ff0723') in 0.014584 seconds
+  Import took 0.019926 seconds .
+
