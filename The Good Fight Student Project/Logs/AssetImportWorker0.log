@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/release' branch; Version is '2020.3.1f1 (77a89f25062f) revision 7841951'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19042.928; Version 2009; 64bit' Language: 'en' Physical Memory: 16144 MB
+OS: 'Windows 10 Pro; OS build 19042.928; Version 2009; 64bit' Language: 'en' Physical Memory: 24516 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -11,91 +11,197 @@ C:\Program Files\Unity\Hub\Editor\2020.3.1f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/benne/OneDrive/Documents/aie/AIE-The-Good-Fight-Assignment-3/The Good Fight Student Project
+D:/Projects/AIE-The-Good-Fight-Assignment-3/The Good Fight Student Project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58901
-Successfully changed project path to: C:/Users/benne/OneDrive/Documents/aie/AIE-The-Good-Fight-Assignment-3/The Good Fight Student Project
-C:/Users/benne/OneDrive/Documents/aie/AIE-The-Good-Fight-Assignment-3/The Good Fight Student Project
+54147
+Successfully changed project path to: D:/Projects/AIE-The-Good-Fight-Assignment-3/The Good Fight Student Project
+D:/Projects/AIE-The-Good-Fight-Assignment-3/The Good Fight Student Project
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 42.90 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 28.38 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.1f1 (77a89f25062f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/benne/OneDrive/Documents/aie/AIE-The-Good-Fight-Assignment-3/The Good Fight Student Project/Assets
+[Subsystems] Discovering subsystems at path D:/Projects/AIE-The-Good-Fight-Assignment-3/The Good Fight Student Project/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce MX230 (ID=0x1d11)
+    Renderer: NVIDIA GeForce GTX 1060 6GB (ID=0x1c03)
     Vendor:   
-    VRAM:     1984 MB
-    Driver:   27.21.14.6627
+    VRAM:     6052 MB
+    Driver:   27.21.14.6611
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56432
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56136
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003103 seconds.
+Registered in 0.003240 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 58.12 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 40.84 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.039 seconds
+- Completed reload, in  2.413 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000878 seconds.
+Registered in 0.000724 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.338 seconds
+- Completed reload, in  0.913 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1482 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 72.7 MB.
-System memory in use after: 72.8 MB.
+System memory in use before: 72.8 MB.
+System memory in use after: 72.9 MB.
 
-Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 1921.
-Total: 3.298900 ms (FindLiveObjects: 0.353200 ms CreateObjectMapping: 0.094800 ms MarkObjects: 2.628100 ms  DeleteObjects: 0.221200 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Scenes/Warehouse.unity
-  artifactKey: Guid(bb08086a8c0e2524a9882a493dab7772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Warehouse.unity using Guid(bb08086a8c0e2524a9882a493dab7772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db322e98121b94b48275fc3910534f4e') in 0.011553 seconds
-  Import took 0.015317 seconds .
+Unloading 67 unused Assets to reduce memory usage. Loaded Objects now: 1920.
+Total: 2.368600 ms (FindLiveObjects: 0.174900 ms CreateObjectMapping: 0.049300 ms MarkObjects: 1.964500 ms  DeleteObjects: 0.178900 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1121.481553 seconds.
+  path: Assets/Models/roof.fbx
+  artifactKey: Guid(b12510c5ec3873443844c4cb1093c86f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/roof.fbx using Guid(b12510c5ec3873443844c4cb1093c86f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16edc14f3ffae3acbb8313063541652a') in 0.163518 seconds
+  Import took 0.165880 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/Models/RoofLight.fbx
+  artifactKey: Guid(214473a6bce12344087a8fb32c77aaec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/RoofLight.fbx using Guid(214473a6bce12344087a8fb32c77aaec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eabc411cf7fe70852c4496e033993c5') in 0.023954 seconds
+  Import took 0.026203 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
   path: Assets/Models/Shelves.fbx
   artifactKey: Guid(f4035fd750ffdcb41bd99c4aa43c863d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Shelves.fbx using Guid(f4035fd750ffdcb41bd99c4aa43c863d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7829c0a8f683161eb83118199985c73d') in 0.289310 seconds
-  Import took 0.292809 seconds .
+Start importing Assets/Models/Shelves.fbx using Guid(f4035fd750ffdcb41bd99c4aa43c863d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '668acdf8b73122026e6b22c41bae1207') in 0.087671 seconds
+  Import took 0.089978 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 691.468161 seconds.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Models/Wall.fbx
+  artifactKey: Guid(6c8008c154faedd4691b876a1c2b79d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Wall.fbx using Guid(6c8008c154faedd4691b876a1c2b79d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22a167e248fc64a83a4e59e3f5c43f00') in 0.027685 seconds
+  Import took 0.030402 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Models/Pallet Racke.fbx
+  artifactKey: Guid(a7ab972fa4c94de4fae7f2452d83c3f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Pallet Racke.fbx using Guid(a7ab972fa4c94de4fae7f2452d83c3f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34bd80bf33b7936dae5786d3caafa473') in 0.021748 seconds
+  Import took 0.024473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Models/Floor.fbx
+  artifactKey: Guid(14f17370fa6068d4e829406e43f753b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Floor.fbx using Guid(14f17370fa6068d4e829406e43f753b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c138658c2349d5369588ba81006e51aa') in 0.034282 seconds
+  Import took 0.036729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 73.977477 seconds.
   path: Assets/Models/New Lighting Settings.lighting
   artifactKey: Guid(3b2ec34f91f23f04fb7d50965761cc35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/New Lighting Settings.lighting using Guid(3b2ec34f91f23f04fb7d50965761cc35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '802b6b36faf0dc3f966d2581b7ff0723') in 0.014584 seconds
-  Import took 0.019926 seconds .
+Start importing Assets/Models/New Lighting Settings.lighting using Guid(3b2ec34f91f23f04fb7d50965761cc35) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: 'f39acb9c8b63d1830f949f4a174d0958') in 0.012877 seconds
+  Import took 0.015507 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028303 seconds.
+  path: Assets/Models/New Lighting Settings.lighting
+  artifactKey: Guid(3b2ec34f91f23f04fb7d50965761cc35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/New Lighting Settings.lighting using Guid(3b2ec34f91f23f04fb7d50965761cc35) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: 'f39acb9c8b63d1830f949f4a174d0958') in 0.019889 seconds
+  Import took 0.022585 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 339.547907 seconds.
+  path: Assets/Models/Piller.fbx
+  artifactKey: Guid(670289c302d992949b794bad93e07f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Piller.fbx using Guid(670289c302d992949b794bad93e07f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc7dad23c27b4b495ee7481a296fd94c') in 0.042411 seconds
+  Import took 0.047216 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Models/Shelves.fbx
+  artifactKey: Guid(f4035fd750ffdcb41bd99c4aa43c863d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Shelves.fbx using Guid(f4035fd750ffdcb41bd99c4aa43c863d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff296acf47fa4100c9585179f3c80128') in 0.029871 seconds
+  Import took 0.031976 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 127.189050 seconds.
+  path: Assets/Models/GarageDoor.fbx
+  artifactKey: Guid(07121812ef3c5c7418e12da31d1bd2be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/GarageDoor.fbx using Guid(07121812ef3c5c7418e12da31d1bd2be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed7f30c0632e21b1bc5c31f426c9a732') in 0.043473 seconds
+  Import took 0.047835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 291.564301 seconds.
+  path: Assets/Models/Pallet Racke.fbx
+  artifactKey: Guid(a7ab972fa4c94de4fae7f2452d83c3f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Pallet Racke.fbx using Guid(a7ab972fa4c94de4fae7f2452d83c3f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9a75ade146ea58ae1f1649abc30eebd') in 0.022575 seconds
+  Import took 0.027683 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Models/RoofLight.fbx
+  artifactKey: Guid(214473a6bce12344087a8fb32c77aaec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/RoofLight.fbx using Guid(214473a6bce12344087a8fb32c77aaec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ad849b5373c21e5d7341c2e2f05e301') in 0.030135 seconds
+  Import took 0.032585 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Models/RoofSupport.fbx
+  artifactKey: Guid(bfbb1077321a04f4f86aed50e5209008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/RoofSupport.fbx using Guid(bfbb1077321a04f4f86aed50e5209008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0bc53d00ab8095d2b8dff2f4cbcc1d3') in 0.025986 seconds
+  Import took 0.028571 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Models/Window.fbx
+  artifactKey: Guid(46fdaf92386204e439b345d47a6c9598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Window.fbx using Guid(46fdaf92386204e439b345d47a6c9598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3d30676d553463c760d9baf9c451351') in 0.034477 seconds
+  Import took 0.036821 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Models/RoofSupport.fbx
+  artifactKey: Guid(bfbb1077321a04f4f86aed50e5209008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/RoofSupport.fbx using Guid(bfbb1077321a04f4f86aed50e5209008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0bc53d00ab8095d2b8dff2f4cbcc1d3') in 0.021375 seconds
+  Import took 0.023857 seconds .
 
