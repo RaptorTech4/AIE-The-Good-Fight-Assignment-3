@@ -13,10 +13,6 @@ GameObject:
   - component: {fileID: 5005397859396440467}
   - component: {fileID: 8998326063109143196}
   - component: {fileID: 7220095693890745371}
-  - component: {fileID: 6484970565624834407}
-  - component: {fileID: 3267678927481177783}
-  - component: {fileID: 5811432658729203156}
-  - component: {fileID: 2238392859378240793}
   - component: {fileID: 8992334336003410051}
   m_Layer: 0
   m_Name: Bullet
@@ -117,58 +113,6 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &6484970565624834407
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3838664707075702789}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c8e1dcaaf9bcc8b4c8add93a5f754915, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _RB: {fileID: 0}
-  _Speed: 10
---- !u!114 &3267678927481177783
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3838664707075702789}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d6af9677bfc67bd4f9e056b356d588df, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _DamigeValue: 0.2
---- !u!114 &5811432658729203156
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3838664707075702789}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3414cb2f134b7b3429ae5f5e7cca4f92, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _LiveTime: 10
---- !u!114 &2238392859378240793
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3838664707075702789}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5615be10da7183241a40362152806ff1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!96 &8992334336003410051
 TrailRenderer:
   serializedVersion: 2
