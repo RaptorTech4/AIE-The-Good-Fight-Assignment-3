@@ -5,14 +5,19 @@ using UnityEngine;
 public class Turret : MonoBehaviour
 {
 
+    public TurretObject TurretData;
+
     GameObject _Player;
     public GameObject _TurretHead;
     public GameObject _ShootPoint;
-    public GameObject _Bullet;
 
-    public float _TurnSpeed;
-    public float _FireRate;
     private float _NextFire;
+
+    private void Start()
+    {
+        SphereCollider col = GetComponent<SphereCollider>();
+        col.radius = TurretData.TurretRange;
+    }
 
     private void OnTriggerEnter(Collider other)
     {
@@ -42,7 +47,7 @@ public class Turret : MonoBehaviour
     {
         Vector3 dir = _Player.transform.position - transform.position;
         Quaternion lookRotation = Quaternion.LookRotation(dir);
-        Vector3 rotation = Quaternion.Lerp(_TurretHead.transform.rotation, lookRotation, Time.deltaTime * _TurnSpeed).eulerAngles;
+        Vector3 rotation = Quaternion.Lerp(_TurretHead.transform.rotation, lookRotation, Time.deltaTime * TurretData.TurretTurnSpeed).eulerAngles;
         _TurretHead.transform.rotation = Quaternion.Euler(rotation.x, rotation.y, 0f);
 
         Shoot();
@@ -52,8 +57,8 @@ public class Turret : MonoBehaviour
     {
         if(Time.time > _NextFire)
         {
-            _NextFire = Time.time + _FireRate;
-            Instantiate(_Bullet, _ShootPoint.transform.position, _ShootPoint.transform.rotation);
+            _NextFire = Time.time + TurretData.TurretFireRate;
+            Instantiate(TurretData.Bullet, _ShootPoint.transform.position, _ShootPoint.transform.rotation);
         }
     }
 }

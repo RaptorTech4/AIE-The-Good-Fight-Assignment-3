@@ -7,7 +7,7 @@ using UnityEngine;
 public class ProjectileParametersObject : ScriptableObject
 {
     public float Mass;
-    public float Velocity;
+    public float Speed;
 
     public int Damage;
     public float LiveSpan;
